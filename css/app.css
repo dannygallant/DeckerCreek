@@ -1,3 +1,33 @@
-#outsideBorder {
-	background-color: #6e6e6e
+.outsideBorder {
+	background-color: #AB9D32;
+}
+
+.greenBlock {
+	background-color: #8AB5A3;
+}
+
+.whiteText {
+	color: white;
+}
+
+.availabilityButton {
+	color: green;
+}
+
+.greenButton{
+    background: #3E705B;
+    color: #ffffff;
+}
+.greenButton:hover { 
+  border-color: #C0C0C0; 
+  background-color: #C0C0C0; 
+}
+
+.brownButton{
+    background: #573B16;
+    color: white;
+}
+.brownButton:hover { 
+  border-color: #C0C0C0; 
+  background-color: #C0C0C0; 
 }
