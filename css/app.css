@@ -1,9 +1,9 @@
 .outsideBorder {
-	background-color: #AB9D32;
+	background-color: #EEDCC8;
 }
 
 .greenBlock {
-	background-color: #8AB5A3;
+	background-color: #9BB291;
 }
 
 .whiteText {
@@ -15,19 +15,24 @@
 }
 
 .greenButton{
-    background: #3E705B;
+    background: #627659;
     color: #ffffff;
+    box-shadow: 1px 3px 0 0 #627659;
 }
+
 .greenButton:hover { 
   border-color: #C0C0C0; 
   background-color: #C0C0C0; 
 }
 
 .brownButton{
-    background: #573B16;
+    background: #8D7B69	;
+    box-shadow: 1px 3px 0 0 #785618;
     color: white;
 }
-.brownButton:hover { 
+
+
+/*.brownButton:hover { 
   border-color: #C0C0C0; 
   background-color: #C0C0C0; 
-}
+}*/
