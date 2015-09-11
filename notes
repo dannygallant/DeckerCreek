@@ -1,3 +1,5 @@
+COLORS:
+
 Light brown  EEDCC8
 
 first border & buttons #C4A98C
@@ -11,3 +13,29 @@ Green button #627659
 
 
 Try button drop shadows in black
+
+=====
+
+FUNCTIONALITY:
+
+Cabin buttons - Update main content area.
+		-> image at bottom of main content area opens same modal as main images (see below)
+Cabin images -  Link to modal with photos or youtube video
+
+About us button -
+About us image  -
+
+Dogs button - 
+Dogs image  -
+
+Rates button - 
+Rates image  -
+
+Check availability button - Opens Google Calendar (tab or modal?)
+
+=====
+
+STYLING:
+
+- Should we add radius to the outside border (currently in CSS, but commented out)?
+- How many pixels should the main site border be?

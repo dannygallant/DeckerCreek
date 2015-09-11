@@ -1,3 +1,10 @@
+.siteBorder {
+	border: solid 4px #8D7B69;
+	/*-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}*/
+
 .outsideBorder {
 	background-color: #EEDCC8;
 }
@@ -17,7 +24,8 @@
 .greenButton{
     background: #627659;
     color: #ffffff;
-    box-shadow: 1px 3px 0 0 #627659;
+    /*box-shadow: 1px 3px 0 0 #627659;*/
+    box-shadow: 3px 3px 9px 0px rgba(50, 50, 50, 0.75);
 }
 
 .greenButton:hover { 
@@ -26,11 +34,23 @@
 }
 
 .brownButton{
-    background: #8D7B69	;
-    box-shadow: 1px 3px 0 0 #785618;
+    background: #8D7B69;
+    /*box-shadow: 1px 3px 0 0 #785618;*/
+    box-shadow: 3px 3px 9px 0px rgba(50, 50, 50, 0.75);
     color: white;
 }
 
+.imageRadius {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.imageShadow {
+	-webkit-box-shadow: 3px 3px 9px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 3px 3px 9px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 3px 3px 9px 0px rgba(50, 50, 50, 0.75);
+}
 
 /*.brownButton:hover { 
   border-color: #C0C0C0; 
