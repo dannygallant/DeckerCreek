@@ -52,6 +52,10 @@
 	box-shadow: 3px 3px 9px 0px rgba(50, 50, 50, 0.75);
 }
 
+.listStyle {
+	 padding-left: 0pt;
+}
+
 /*.brownButton:hover { 
   border-color: #C0C0C0; 
   background-color: #C0C0C0; 

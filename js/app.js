@@ -20,6 +20,17 @@ $(document).ready(function() {
 		content: "Decker Creek is owned and operated by Pay, Byron, Beau, Razr and Shiva Rathburn. We are members of the Texas Bed and Breakfast Association and the Professional Inkeepers Association.",
 		email: "Email us: pat.rathburn@gmail.com",
 		phone: "Call us: 512-743-8835 / 512-743-8090"
+	},
+	{
+		heading: "Rates and Policies",
+		policies: [
+		"$169 a night plus tax based on double occupancy.", 
+		"Two-night minimum stay on weekends.", 
+		"$25 per-day additional person charge.", 
+		"All guests must agree to and sign a release form outlining property policies.",
+		"When checking our calendar, a day with a line through it (and a cabin number in that line) means that the cabin is booked for that night.",
+		"We sometimes have cancellations, so let us know if you want to be contacted if a date opens up."
+		],
 	}
 
 	]
@@ -44,6 +55,13 @@ $('#cabin2').on('click', function() {
 $('#aboutUs').on('click', function() {
 	$('.greenBlock').empty();
 	var content = '<br><h4 class="whiteText" id="mainInfo">' +info[3].heading+ '</h4><p id="mainInfoText">' +info[3].content+ '</p><br><strong>' +info[3].email+ '<br></strong><strong>' +info[3].phone+ '<br></strong><br><br>';
+	$('.greenBlock').html(content);
+
+});
+
+$('#ratesPolicies').on('click', function() {
+	$('.greenBlock').empty();
+	var content = '<br><h4 class="whiteText" id="mainInfo">' +info[4].heading+ '</h4><p id="mainInfoText"><ul class="listStyle"><li>' +info[4].policies[0]+ '</li><li>' +info[4].policies[1]+ '</li><li>' +info[4].policies[2]+ '</li><li>' +info[4].policies[3]+ '</li><li>' +info[4].policies[4]+ '</li><li>' +info[4].policies[5]+ '</li>';
 	$('.greenBlock').html(content);
 
 });
