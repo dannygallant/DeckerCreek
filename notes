@@ -35,6 +35,11 @@ Check availability button - Opens Google Calendar (tab or modal?)
 
 =====
 
+Google Calendar:
+https://calendar.google.com/calendar/embed?src=shs1las07kg41f4fl3veit0o28@group.calendar.google.com&title=Decker+Creek+B&B&epr=3&wkst=1&hl=en&
+
+=====
+
 STYLING:
 
 - Should we add radius to the outside border (currently in CSS, but commented out)?
