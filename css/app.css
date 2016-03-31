@@ -34,7 +34,7 @@
     background: #627659;
     color: #ffffff;
     /*box-shadow: 1px 3px 0 0 #627659;*/
-    box-shadow: 3px 3px 9px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 2px 2px 2px 0px rgba(50, 50, 50, 0.75);
 }
 
 .greenButton:hover { 
@@ -43,9 +43,11 @@
 }
 
 .brownButton{
-    background: #8D7B69;
+    background: #786758;
     /*box-shadow: 1px 3px 0 0 #785618;*/
-    box-shadow: 3px 3px 9px 0px rgba(50, 50, 50, 0.75);
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 2px 2px 2px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 2px 2px 2px 0px rgba(50, 50, 50, 0.75);
     color: white;
 }
 
@@ -56,9 +58,9 @@
 }
 
 .imageShadow {
-	-webkit-box-shadow: 3px 3px 9px 0px rgba(50, 50, 50, 0.75);
-	-moz-box-shadow: 3px 3px 9px 0px rgba(50, 50, 50, 0.75);
-	box-shadow: 3px 3px 9px 0px rgba(50, 50, 50, 0.75);
+	-webkit-box-shadow: 3px 3px 3px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 3px 3px 3px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 3px 3px 3px 0px rgba(50, 50, 50, 0.75);
 }
 
 .listStyle {
@@ -79,6 +81,15 @@
 	padding-bottom: 0px;
 }
 
+.thumbnail .caption {
+	-webkit-padding: 0px;	
+	-moz-padding: 0px;
+	padding-bottom:0px;
+	padding-top: 5px;
+	padding-right:0px;
+	padding-left:0px;
+}
+
 h1, h2, h3 {
 	font-family: 'Open Sans', sans-serif;
 }
@@ -91,9 +102,16 @@ h4 {
 	margin-top: 0px;
 	-webkit-margin-bottom:0px;
 	-moz-margin-bottom:0px;	
-	margin-bottom:0px;
+	-webkit-margin-bottom: 10px;
+	-moz-margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 p {
 	font-family: 'Open Sans', sans-serif;
+}
+
+
+.container {
+	width:990px;
 }

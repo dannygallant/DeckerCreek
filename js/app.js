@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	var info = [{
 		heading: "What you'll find at Decker Creek B&amp;B&amp;B:",
-		content: "Your own private cabin with screened porch,<br> fenced yard, kitchen, patio, grill, whirlpool tub<br> and many other amenities.<br>Dog bowls, towels, beds, crates (available if needed) and<br> homemade dog biscuits.<br>A full country breakfast from local farms.<br>Room to roam.<br>Area guides, resources and recommendations.<br>Nearby activities, including golf, canoeing and trail rides.<br>Downtown Austin just 14 miles away.",
+		content: "Your own private cabin with screened porch, fenced yard, kitchen, patio, grill, whirlpool tub and many other amenities. Dog bowls, towels, beds, crates (available if needed) and homemade dog biscuits. A full country breakfast from local farms. Room to roam. Area guides, resources and recommendations. Nearby activities, including golf, canoeing and trail rides. Downtown Austin just 14 miles away.",
 	},
 	{
 		heading: "Cabin 1: Hilltop",
@@ -17,8 +17,8 @@ $(document).ready(function() {
 	},
 	{
 		heading: "About Us",
-		content: "Decker Creek is owned and operated by Pay, Byron, Beau, Razr and Shiva Rathburn. We are members of the Texas Bed and Breakfast Association and the Professional Inkeepers Association.",
-		email: "Email us: pat.rathburn@gmail.com",
+		content: "Decker Creek is owned and operated by Pat, Byron, Beau, Razr and Shiva Rathbun. We are members of the Texas Bed and Breakfast Association and the Professional Inkeepers Association.",
+		email: "Email us: pat.rathbun@gmail.com",
 		phone: "Call us: 512-743-8835 / 512-743-8090"
 	},
 	{
