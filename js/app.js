@@ -18,8 +18,10 @@ $(document).ready(function() {
 	{
 		heading: "About Us",
 		content: "Decker Creek B&B&B is dedicated to providing a dog-friendly rural getaway near Austin, Texas, on 50 acres of woods and meadows intersected by Decker Creek. Downtown Austin is 14 miles away. Your hosts are Pat, Byron, Beau, Razr and Shiva Rathbun. We are members of the Texas Bed and Breakfast Association.",
-		email: "Email us: pat.rathbun@gmail.com",
-		phone: "Call us: 512-743-8835 / 512-743-8090"
+		// email: "Email us: <a href="mailto:pat.rathbun@gmail.com"> pat.rathbun@gmail.com </a>",
+		// phone: "Call us: <a href="tel=+1-512-743-8835"> 512-743-8835 </a> / <a href="tel=+1-512-743-8090"> 512-743-8090 </a>"
+
+		// *** Trying to make email & phone numbers clickable, but this code breaks all functionality. Try putting inside the 'on click' function instead ***
 	},
 	
 	// {
