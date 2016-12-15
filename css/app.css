@@ -121,3 +121,19 @@ p {
 /*.container {
 	width:990px;
 }*/
+
+
+/*  Keeping 3 columns the same height when the main text box changes in size.  */
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+

@@ -1,0 +1,5 @@
+- Add a class to the following HTML, and add returns via a media query when in mobile size (2 lines for the address and email one line, phone #s on another):
+
+		<p>16029 Decker Lake Road, Manor, TX 78653<br>
+		<a href="mailto:pat.rathbun@gmail.com"> pat.rathbun@gmail.com </a> | <a href="tel:+1-512-743-8835"> 512-743-8835 </a></p>
+
