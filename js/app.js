@@ -48,9 +48,10 @@ $(document).ready(function() {
 		"$169 a night plus tax based on double occupancy.", 
 		"Two-night minimum stay on weekends.", 
 		"$25 per-day additional person charge.", 
-		"All guests must agree to and sign a release form outlining property policies.",
 		"When checking our calendar, a day with a line through it (and a cabin number in that line) means that the cabin is booked for that night.",
-		"We sometimes have cancellations, so let us know if you want to be contacted if a date opens up."
+		"We sometimes have cancellations, so let us know if you want to be contacted if a date opens up.",
+		"And we have an agility area with plenty of equipment to set up a course. We are happy to provide an intro to the sport and the obstacles.",
+		"All guests must agree to and sign a release form outlining property policies. Please review the form prior to booking your stay"
 		],
 	}
 
@@ -89,21 +90,21 @@ $('#aboutUs').on('click', function() {
 
 $('#ratesPolicies').on('click', function() {
 	$('.greenBlock').empty();
-	// var content = '<br><h4 class="whiteText" id="mainInfo">' +info[4].heading+ '</h4><p id="mainInfoText"><ul class="listStyle"><li>' +info[4].policies[0]+ '</li><li>' +info[4].policies[1]+ '</li><li>' +info[4].policies[2]+ '</li><li>' +info[4].policies[3]+ '</li><li>' +info[4].policies[4]+ '</li><li>' +info[4].policies[5]+ '</li>';
-	var content = '<br><h4 class="whiteText" id="mainInfo">' +info[4].heading+ '</h4><p id="mainInfoText">' +info[4].content;
+	var content = '<br><h4 class="whiteText" id="mainInfo">' +info[4].heading+ '</h4><p id="mainInfoText"><ul class="listStyle"><li>' +info[4].policies[0]+ '</li><li>' +info[4].policies[1]+ '</li><li>' +info[4].policies[2]+ '</li><li>' +info[4].policies[3]+ '</li><li>' +info[4].policies[4]+ '</li><li>' +info[4].policies[5]+ '</li><li>' +info[4].policies[6]+ '</li>';
+	// var content = '<br><h4 class="whiteText" id="mainInfo">' +info[4].heading+ '</h4><p id="mainInfoText">' +info[4].policies;
 	$('.greenBlock').html(content);
 
 });
 
 // Trying to get the Rates button to toggle from desktop to mobile.
 
-$('#ratesPoliciesSmall').on('click', function() {
-	$('.greenBlock').empty();
-	var content = '<br><h4 class="whiteText" id="mainInfo">' +info[4].heading+ '<br></h4><p id="mainInfoText"><ul class="listStyle"><li>' +info[4].policies[0]+ '</li><li>' +info[4].policies[1]+ '</li><li>' +info[4].policies[2]+ '</li><li>' +info[4].policies[3]+ '</li><li>' +info[4].policies[4]+ '</li><li>' +info[4].policies[5]+ '</li>' + '<br><br><br><br>';
-	// var content = '<br><h4 class="whiteText" id="mainInfo">' +info[4].heading+ '</h4><p id="mainInfoText">' +info[4].content;
-	$('.greenBlock').html(content);
+// $('#ratesPoliciesSmall').on('click', function() {
+// 	$('.greenBlock').empty();
+// 	var content = '<br><h4 class="whiteText" id="mainInfo">' +info[4].heading+ '<br></h4><p id="mainInfoText"><ul class="listStyle"><li>' +info[4].policies[0]+ '</li><li>' +info[4].policies[1]+ '</li><li>' +info[4].policies[2]+ '</li><li>' +info[4].policies[3]+ '</li><li>' +info[4].policies[4]+ '</li><li>' +info[4].policies[5]+ '</li>' + '<br><br><br><br>';
+// 	// var content = '<br><h4 class="whiteText" id="mainInfo">' +info[4].heading+ '</h4><p id="mainInfoText">' +info[4].content;
+// 	$('.greenBlock').html(content);
 
-});
+// });
 
 
 
