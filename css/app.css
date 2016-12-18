@@ -14,13 +14,13 @@
 	} 
 }
 
- @media (min-width: 480px) {
+/* @media (min-width: 480px) {
  	.smallScreen {
  	display: none;
  	}
-}
+}*/
 
- @media (max-width: 481px) {
+ @media (min-width: 760px) {
  	.largeScreen {
  	display: none;
  	}
