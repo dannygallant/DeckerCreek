@@ -11,9 +11,20 @@
 	-webkit-margin-top: 100px;
 	-moz-margin-top: 100px;
 	margin-top: 100px;
-} 
- }
+	} 
+}
 
+ @media (min-width: 480px) {
+ 	.smallScreen {
+ 	display: none;
+ 	}
+}
+
+ @media (max-width: 481px) {
+ 	.largeScreen {
+ 	display: none;
+ 	}
+}
 .outsideBorder {
 	background-color: #EEDCC8;
 	-webkit-padding-top: 0px; 
@@ -70,7 +81,14 @@
 }
 
 .listStyle {
-	 padding-left: 0pt;
+	 /*padding-left: 0pt;*/
+	 display: inline-block;
+     text-align:left;
+}
+
+.mainTextStyle {
+	display: inline-block;
+    text-align:left;	
 }
 
 /*.brownButton:hover { 
