@@ -53,7 +53,8 @@ $(document).ready(function() {
 		"When checking our calendar, a day with a line through it (and a cabin number in that line) means that the cabin is booked for that night.",
 		"We sometimes have cancellations, so let us know if you want to be contacted if a date opens up.",
 		"And we have an agility area with plenty of equipment to set up a course. We are happy to provide an intro to the sport and the obstacles.",
-		"All guests must agree to and sign a release form outlining property policies. Please click this line to review the form prior to booking your stay your stay with us."
+		"All guests must agree to and sign a ",
+		" outlining property policies."
 		],
 	}
 
@@ -92,7 +93,7 @@ $('#aboutUs').on('click', function() {
 
 $('#ratesPolicies').on('click', function() {
 	$('.greenBlock').empty();
-	var content = '<br><h4 class="whiteText" id="mainInfo">' +info[4].heading+ '</h4><p id="mainInfoText"><ul class="listStyle"><li>' +info[4].policies[0]+ '</li><li>' +info[4].policies[1]+ '</li><li>' +info[4].policies[2]+ '</li><li>' +info[4].policies[3]+ '</li><li>' +info[4].policies[4]+ '</li><li>' +info[4].policies[5]+ '</li><li><a href="img/Release_Form.pdf">' +info[4].policies[6]+ '</a></li>';
+	var content = '<br><h4 class="whiteText" id="mainInfo">' +info[4].heading+ '</h4><p id="mainInfoText"><ul class="listStyle"><li>' +info[4].policies[0]+ '</li><li>' +info[4].policies[1]+ '</li><li>' +info[4].policies[2]+ '</li><li>' +info[4].policies[3]+ '</li><li>' +info[4].policies[4]+ '</li><li>' +info[4].policies[5]+  '<li>' +info[4].policies[6]+ '<a href="img/Release_Form.pdf"> release form </a>' +info[4].policies[7]+ '</li>';
 	// var content = '<br><h4 class="whiteText" id="mainInfo">' +info[4].heading+ '</h4><p id="mainInfoText">' +info[4].policies;
 	$('.greenBlock').html(content);
 
