@@ -20,7 +20,7 @@ $(document).ready(function() {
 	{
 		heading: "Cabin 2: Treehouse",
 		content: "Down the hill in a secluded woodsy setting. Large windows all around. Sunsets illuminate the elevated porch. The living area has a futon couch, dining table and TV/electronics. Around the wall is a comfy king bed. The large bathroom has a jetted tub with shower. The yard features a deck with table, chiminea, hammock, grill and cabana shower for dogs and people. <br><br>Click on photo below for more views.",
-		image: "img/Cabin2Thumb.jpg"
+		image: "img/cabin_2_video_player.jpg"
 	},
 
 	// ORIGINAL CABIN 2 TEXT. CHANGED ON 12/18/2016
