@@ -6,7 +6,8 @@ $(document).ready(function() {
 	{
 		heading: "Cabin 1: Hilltop",
 		content: "Huge windows give views in all directions. The living area has a futon couch, lounge chair, dining table, TV/electronics and jetted tub by a picture window. Around the wall is a comfy king bed. The bathroom includes a spacious shower stall. The large wooded yard is near the rural road and features a hammock, patio with table, grill, chiminea and dog washing area. <br><br>Click on photo below for more views.",
-		image: "img/Cabin1Thumb.jpg"
+		// image: "img/Cabin1Thumb.jpg"
+		image: "img/cabin_1_video_player.jpg"
 	},
 
 	// ORIGINAL CABIN 1 TEXT. CHANGED ON 12/18/2016
@@ -36,8 +37,9 @@ $(document).ready(function() {
 	{
 		heading: "About Us",
 		content: "Decker Creek B&B&B is dedicated to providing a dog-friendly rural getaway near Austin, Texas, on 50 acres of woods and meadows intersected by Decker Creek. <br><br> Downtown Austin is 14 miles away. <br><br> Your hosts are Pat, Byron, Beau, Razr and Shiva Rathbun. <br><br> We are members of the Texas Bed and Breakfast Association.",
-		// email: "Email us: <a href="mailto:pat.rathbun@gmail.com"> pat.rathbun@gmail.com </a>",
-		// phone: "Call us: <a href="tel=+1-512-743-8835"> 512-743-8835 </a> / <a href="tel=+1-512-743-8090"> 512-743-8090 </a>"
+		email: "Email us: pat.rathbun@gmail.com",
+		phone: "Call us: 512-743-8835",
+		phone2: "512-743-8090"
 
 		// *** Trying to make email & phone numbers clickable, but this code breaks all functionality. Try putting inside the 'on click' function instead ***
 	},
@@ -51,7 +53,7 @@ $(document).ready(function() {
 		"When checking our calendar, a day with a line through it (and a cabin number in that line) means that the cabin is booked for that night.",
 		"We sometimes have cancellations, so let us know if you want to be contacted if a date opens up.",
 		"And we have an agility area with plenty of equipment to set up a course. We are happy to provide an intro to the sport and the obstacles.",
-		"All guests must agree to and sign a release form outlining property policies. Please review the form prior to booking your stay"
+		"All guests must agree to and sign a release form outlining property policies. Please click this line to review the form prior to booking your stay your stay with us."
 		],
 	}
 
@@ -83,14 +85,14 @@ $('#cabin2').on('click', function() {
 
 $('#aboutUs').on('click', function() {
 	$('.greenBlock').empty();
-	var content = '<br><h4 class="whiteText" id="mainInfo">' +info[3].heading+ '</h4><p id="mainInfoText">' +info[3].content+ '</p><br><strong>' +info[3].email+ '<br></strong><strong>' +info[3].phone+ '<br></strong><br><br>';
+	var content = '<br><h4 class="whiteText" id="mainInfo">' +info[3].heading+ '</h4><p id="mainInfoText">' +info[3].content+ '</p><br><strong><a href="mailto:pat.rathbun@gmail.com">' +info[3].email+ '</a><br></strong><strong><a href="tel:+1-512-743-8835">' +info[3].phone+ '</a> <br> <a href="tel:+1-512-743-8090">' +info[3].phone2+ '</a></strong><br><br>';
 	$('.greenBlock').html(content);
 
 });
 
 $('#ratesPolicies').on('click', function() {
 	$('.greenBlock').empty();
-	var content = '<br><h4 class="whiteText" id="mainInfo">' +info[4].heading+ '</h4><p id="mainInfoText"><ul class="listStyle"><li>' +info[4].policies[0]+ '</li><li>' +info[4].policies[1]+ '</li><li>' +info[4].policies[2]+ '</li><li>' +info[4].policies[3]+ '</li><li>' +info[4].policies[4]+ '</li><li>' +info[4].policies[5]+ '</li><li>' +info[4].policies[6]+ '</li>';
+	var content = '<br><h4 class="whiteText" id="mainInfo">' +info[4].heading+ '</h4><p id="mainInfoText"><ul class="listStyle"><li>' +info[4].policies[0]+ '</li><li>' +info[4].policies[1]+ '</li><li>' +info[4].policies[2]+ '</li><li>' +info[4].policies[3]+ '</li><li>' +info[4].policies[4]+ '</li><li>' +info[4].policies[5]+ '</li><li><a href="img/Release_Form.pdf">' +info[4].policies[6]+ '</a></li>';
 	// var content = '<br><h4 class="whiteText" id="mainInfo">' +info[4].heading+ '</h4><p id="mainInfoText">' +info[4].policies;
 	$('.greenBlock').html(content);
 
