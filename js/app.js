@@ -45,7 +45,7 @@ $(document).ready(function() {
 	},
 	
 	{
-		heading: "Rates and Policies",
+		heading: "Rates, Policies and Amenities",
 		policies: [
 		"$169 a night plus tax based on double occupancy.", 
 		"Two-night minimum stay on weekends.", 
