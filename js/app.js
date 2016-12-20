@@ -100,6 +100,14 @@ $('#ratesPolicies').on('click', function() {
 
 });
 
+$('#ratesPoliciesIMG').on('click', function() {
+	$('.greenBlock').empty();
+	var content = '<br><h4 class="whiteText" id="mainInfo">' +info[4].heading+ '</h4><p id="mainInfoText"><ul class="listStyle"><li>' +info[4].policies[0]+ '</li><li>' +info[4].policies[1]+ '</li><li>' +info[4].policies[2]+ '</li><li>' +info[4].policies[3]+ '</li><li>' +info[4].policies[4]+ '</li><li>' +info[4].policies[5]+  '<li>' +info[4].policies[6]+ '<a href="img/Release_Form.pdf"> release form </a>' +info[4].policies[7]+ '</li>';
+	// var content = '<br><h4 class="whiteText" id="mainInfo">' +info[4].heading+ '</h4><p id="mainInfoText">' +info[4].policies;
+	$('.greenBlock').html(content);
+
+});
+
 // Trying to get the Rates button to toggle from desktop to mobile.
 
 // $('#ratesPoliciesSmall').on('click', function() {
