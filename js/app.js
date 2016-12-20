@@ -77,6 +77,13 @@ $('#cabin1').on('click', function() {
 
 });
 
+$('#cabin1IMG').on('click', function() {
+	$('.greenBlock').empty();
+	var content = '<br><h4 class="whiteText" id="mainInfo">' +info[1].heading+ '</h4><p id="mainInfoText">' +info[1].content+ '</p><a href="http://www.deckercreek.com/galleries/hilltop/hilltop.html" target="_blank"><img src=' +info[1].image+ '></a><br><br>';
+	$('.greenBlock').html(content);
+
+});
+
 $('#cabin2').on('click', function() {
 	$('.greenBlock').empty();
 	var content = '<br><h4 class="whiteText" id="mainInfo">' +info[2].heading+ '</h4><p id="mainInfoText">' +info[2].content+ '</p><a href="http://www.deckercreek.com/galleries/cabin_2/cabin_2.htm" target="_blank"><img src=' +info[2].image+ '></a><br><br>';
@@ -84,7 +91,22 @@ $('#cabin2').on('click', function() {
 
 });
 
+$('#cabin2IMG').on('click', function() {
+	$('.greenBlock').empty();
+	var content = '<br><h4 class="whiteText" id="mainInfo">' +info[2].heading+ '</h4><p id="mainInfoText">' +info[2].content+ '</p><a href="http://www.deckercreek.com/galleries/cabin_2/cabin_2.htm" target="_blank"><img src=' +info[2].image+ '></a><br><br>';
+	$('.greenBlock').html(content);
+
+});
+
 $('#aboutUs').on('click', function() {
+	$('.greenBlock').empty();
+	// var content = '<br><h4 class="whiteText" id="mainInfo">' +info[3].heading+ '</h4><p id="mainInfoText">' +info[3].content+ '</p><br><strong><a href="mailto:pat.rathbun@gmail.com">' +info[3].email+ '</a><br></strong><strong><a href="tel:+1-512-743-8835">' +info[3].phone+ '</a> <br> <a href="tel:+1-512-743-8090">' +info[3].phone2+ '</a></strong><br><br>';
+	var content = '<br><h4 class="whiteText" id="mainInfo">' +info[3].heading+ '</h4><p id="mainInfoText">' +info[3].content+ '</p><a href="http://www.texasbb.org" target="_blank"><img class="texasBBBLogoSize" src=' +info[3].image+ '></a><br><br>';
+	$('.greenBlock').html(content);
+
+});
+
+$('#aboutUsIMG').on('click', function() {
 	$('.greenBlock').empty();
 	// var content = '<br><h4 class="whiteText" id="mainInfo">' +info[3].heading+ '</h4><p id="mainInfoText">' +info[3].content+ '</p><br><strong><a href="mailto:pat.rathbun@gmail.com">' +info[3].email+ '</a><br></strong><strong><a href="tel:+1-512-743-8835">' +info[3].phone+ '</a> <br> <a href="tel:+1-512-743-8090">' +info[3].phone2+ '</a></strong><br><br>';
 	var content = '<br><h4 class="whiteText" id="mainInfo">' +info[3].heading+ '</h4><p id="mainInfoText">' +info[3].content+ '</p><a href="http://www.texasbb.org" target="_blank"><img class="texasBBBLogoSize" src=' +info[3].image+ '></a><br><br>';
