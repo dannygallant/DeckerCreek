@@ -97,6 +97,10 @@
   background-color: #C0C0C0; 
 }*/
 
+.boldText {
+	font-weight: 900;
+}
+
 .caption {
 	-webkit-padding-top: 6px;
 	-moz-padding-top: 6px; 
@@ -113,6 +117,14 @@
 	padding-top: 5px;
 	padding-right:0px;
 	padding-left:0px;
+}
+
+.pinSize {
+	max-height: 18px;
+}
+
+.texasBBBLogoSize {
+	max-height: 80px;
 }
 
 h1, h2, h3 {
